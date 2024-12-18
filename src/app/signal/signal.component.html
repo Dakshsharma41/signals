@@ -1,0 +1,22 @@
+<div class="signal">
+    {{firstName()}}  
+    <!-- {{courseName}} -->
+    <!-- {{rollNo()}} -->
+</div>
+<div>
+   fullname- {{fullName()}}
+</div>
+
+<div>
+    {{cityList()}} - {{internObj().name}} -{{internObj().city}}
+</div>
+
+<div>  
+<button (click)="addCity()" class="change">Add city</button>
+</div>
+<div>  
+<button (click)="changeInternCity()" class="change">ChangeCity</button>
+</div>
+
+<button (click)="changeName()" class="change">FirstName</button>
+<button (click)="changeLastName()" class="change">LastName</button>
